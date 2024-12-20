@@ -17,6 +17,7 @@ git clone https://github.com/subquery/tutorials-account-transfers.git
 
 ### 2. Install dependencies
 
+
 ```shell
 cd <folder>
 yarn
