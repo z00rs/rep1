@@ -7,7 +7,7 @@ type Account @entity {
 }
 
 type Transfer @entity {
-  id: ID! #this primary key is the block number + the event id
+  id: ID! #this primary key is the block number + the event id and some others
   amount: BigInt
   blockNumber: BigInt
   to: Account! #receiving address
